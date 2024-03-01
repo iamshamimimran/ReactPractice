@@ -3,6 +3,7 @@ import "./App.css";
 import Alert from "./components/Alert";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
   <div className="container my-3"> 
   <TextForm showAlert={showAlert} heading="Enter your text here"/>
   </div>
+  <Footer/>
   </>
     
   );

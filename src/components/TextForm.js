@@ -59,8 +59,9 @@ export default function TextForm(props) {
         <h3>Estimated time to read</h3>
         <p>{0.008 * text.split(/\s+/).filter((element)=>{return element.length!==0}).length} Minutes</p>
     </div>
-    <div className=' my-3 container'>
+    <div className=' my-3 container' style={{width:"600px"}}>
         <h3>Preview</h3>
+        
     <p style={{color:"black"}}>{text.length>0?text:"Nothing to preview"}</p>
     </div>
 
