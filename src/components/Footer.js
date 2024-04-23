@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="wave" id="wave3"></div>
       <div className="wave" id="wave4"></div>
     </div> */}
-    <p>{currentYear} || Made with &#10084; by lunatic.exe </p>
+    <p>{currentYear} || Made with <span className='love'>&#10084;</span> by lunatic.exe </p>
   </footer>
   )
   

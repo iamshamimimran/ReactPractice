@@ -13,7 +13,9 @@
   align-items: center;
   flex-direction: column;
 }
-
+.love{
+  color: red;
+}
 
 .footer p {
   color: #000000;
