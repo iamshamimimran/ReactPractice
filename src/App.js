@@ -22,7 +22,7 @@ function App() {
   }, 1500);
   setInterval(() => {
     document.title='Text Decoder'
-  }, 3000);
+  }, 1500);
   return (
   <>
   
